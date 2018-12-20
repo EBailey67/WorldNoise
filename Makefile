@@ -22,4 +22,4 @@ $(TARGET_LIB): $(obj)
 
 .PHONY: clean
 clean:
-	rm -f $(obj) $(dep) TARGET_LIB
+	rm -f $(obj) $(dep) $(TARGET_LIB)

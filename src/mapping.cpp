@@ -11,7 +11,7 @@ namespace anl
         size_t h=a.height();
         static double pi2=3.141592*2.0;
 
-        size_t x,y;
+        unsigned int x,y;
         for(x=0; x<w; ++x)
         {
             for(y=0; y<h; ++y)
@@ -128,7 +128,7 @@ namespace anl
 
                     default: break;
                 }
-                a.set(x,y,val);
+                a.set(x, y,val);
             }
         }
    }
@@ -139,7 +139,7 @@ namespace anl
         size_t h=a.height();
         static double pi2=3.141592*2.0;
 
-        size_t x,y;
+        unsigned int x,y;
         for(x=0; x<w; ++x)
         {
             for(y=0; y<h; ++y)
@@ -340,7 +340,7 @@ namespace anl
         size_t h=a.height();
         static double pi2=3.141592*2.0;
 
-        size_t x,y;
+        unsigned int x,y;
         for(x=0; x<w; ++x)
         {
             for(y=0; y<h; ++y)
@@ -469,7 +469,7 @@ namespace anl
         size_t h=a.height();
         static double pi2=3.141592*2.0;
 
-        size_t x,y;
+        unsigned int x,y;
         for(x=0; x<w; ++x)
         {
             for(y=0; y<h; ++y)
